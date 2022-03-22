@@ -11,6 +11,7 @@ import me.kodysimpson.simpapi.menu.PlayerMenuUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.Sound;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
@@ -84,6 +85,7 @@ public class KeyUpgradeMenu extends Menu {
         ICrateKey key = getRandomItem(upgrade);
         core.getExcellentCrates().getKeyManager().giveKey(player, key, 1);
 
+        player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1, 1);
         player.sendMessage(ChatUtils.translate("&d&l( ! ) &8► &7You have &d&nexchanged&7 your keys for a " + key.getName()));
 
         player.closeInventory();
