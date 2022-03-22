@@ -6,7 +6,7 @@
 
     <groupId>fun.sweetsmp</groupId>
     <artifactId>SweetCrateKeys</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.2.0</version>
     <packaging>jar</packaging>
 
     <name>SweetCrateKeys</name>
