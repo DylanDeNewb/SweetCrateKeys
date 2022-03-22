@@ -17,7 +17,7 @@ import org.bukkit.plugin.java.annotation.plugin.Plugin;
 import org.bukkit.plugin.java.annotation.plugin.author.Author;
 import su.nightexpress.excellentcrates.ExcellentCrates;
 
-@Plugin(name = "SweetCrateKeys", version = "0.1.0")
+@Plugin(name = "SweetCrateKeys", version = "0.2.0")
 @Description("ExcellentCrates addon for Crate Key Upgrades")
 @SoftDependency("ExcellentCrates")
 @Author("DylanDeNewb")
