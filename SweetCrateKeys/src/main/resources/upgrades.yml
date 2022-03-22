@@ -1,0 +1,21 @@
+upgrades:
+  upgrade_1:
+    name: "Vote Upgrade"
+    tradeInKeyID: "vote"
+    tradeInKeyAmount: 3
+    rewards:
+      chocolate:
+        chance: 15
+      taffy:
+        chance: 35
+      peppermint:
+        chance: 50
+  upgrade_2:
+    name: "Rare Upgrade"
+    tradeInKeyID: "rare"
+    tradeInKeyAmount: 3
+    rewards:
+      legendary:
+        chance: 15
+      mystery:
+        chance: 85
